@@ -1,0 +1,44 @@
+Test Plan Conclusion:
+
+PUT Request:
+
+The PUT requests demonstrated a reasonable average response time of approximately 10.29 ms.
+Error rates were negligible, with a 0% error percentage.
+Response times were relatively consistent, as indicated by a low standard deviation of 1.29 ms.
+The system handled an average throughput of 5.14 requests per second effectively.
+The test ran for 985.6 seconds without significant issues.
+PATCH Request:
+
+PATCH requests exhibited a slightly higher average response time of around 11.82 ms.
+Error rates were minimal, with a 0% error percentage.
+Response times showed moderate consistency, with a standard deviation of 1.18 ms.
+Throughput was reasonable at 5.14 requests per second.
+The test ran for 1141.73 seconds without major concerns.
+DELETE Request:
+
+DELETE requests had a relatively low average response time of approximately 6.13 ms.
+Error rates remained negligible, with a 0% error percentage.
+Response times were consistent, with a standard deviation of 1.13 ms.
+Throughput reached 5.14 requests per second.
+The test successfully ran for 919.7 seconds.
+GET Request:
+
+GET requests demonstrated a significantly higher average response time, averaging around 46.61 ms.
+Error rates were absent, resulting in a 0% error percentage.
+Response times showed moderate consistency with a standard deviation of 0.71 ms.
+Throughput was relatively low, at 5.16 requests per second.
+The test completed in 1248.9 seconds without errors.
+POST Request:
+
+POST requests had a low average response time of approximately 6.45 ms.
+Error rates remained at 0%, indicating stability.
+Response times were consistent, with a standard deviation of 1.25 ms.
+Throughput reached 5.14 requests per second.
+The test concluded successfully in 1114.53 seconds.
+Overall Test:
+
+Across all request types (PUT, PATCH, DELETE, GET, POST), the test plan processed a total of 300 requests.
+Error rates remained at 0% for the entire test.
+The overall average response time was 63.43 ms, with a standard deviation of 5.18 ms.
+Throughput averaged at 0.01 requests per second.
+The total test duration was 1082.09 seconds, indicating a robust and stable performance of the system under load.
